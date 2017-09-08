@@ -1,0 +1,18 @@
+@media (max-width: 1400px){
+	.miner-machine .container-left-head {
+		padding-right: 60px;
+	}
+}
+@media (max-width: 1560px){
+	.miner-machine .center{
+		width: 1200px;
+	}
+	.miner-machine img.monitored-platform {
+		height: 415px;
+		margin-top: 100px;
+	}
+	.miner-machine .container-left-head ul ,
+	.miner-machine .container-left-head h1 {
+		padding-left: 130px;
+	}
+}
