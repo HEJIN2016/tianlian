@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -18,7 +18,7 @@
 		<div class="container">
 		    <div class="logo-img">TIANLIAN</div>
 		    <ul class="nav-list">
-		    	<li><a href="index.html">首页</a></li>
+		    	<li><a href="/">首页</a></li>
 		    	<li><a href="miner.html">天链矿机</a></li>
 		    	<li><a href="pool.html">天链矿池</a></li>
 		    	<li><a href="download.html">挖矿软件</a></li>
@@ -133,8 +133,8 @@
 		</div>
 	</div>
 
-	<div class="application">
-		<!-- <h3>应用场景</h3> -->
+	<div class="application imgload" data-bg-url="imgs/139.png">
+		<h3>应用场景</h3>
 		<div class="container-word">
 			<div class="list">
 				<h4><i></i>即时支付</h4>
@@ -189,6 +189,12 @@
 <!--[if lte IE 8]><script src="http://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script><![endif]-->
 <!--[if gte IE 9]><script type="text/javascript" src="lib/jquery.min.js"></script><![endif]-->
 <script type="text/javascript" src="lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/loadimg.js"></script>
+<script type="text/javascript">
+setTimeout(function(){
+    $(".center-slide").css("background-image","url('imgs/tianlian.jpg')");
+},300);
+</script>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>

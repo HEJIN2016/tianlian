@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -18,7 +18,7 @@
 		<div class="container">
 		    <div class="logo-img">TIANLIAN</div>
 		    <ul class="nav-list">
-		    	<li><a href="index.html">首页</a></li>
+		    	<li><a href="/">首页</a></li>
 		    	<li><a href="miner.html">天链矿机</a></li>
 		    	<li><a href="pool.html">天链矿池</a></li>
 		    	<li><a href="download.html">挖矿软件</a></li>
@@ -34,7 +34,7 @@
 			<div class="row">
 				<div class="col-lg-9">
 					<h3>公司简介</h3>
-			        <img src="imgs/about.jpg">
+			        <img src="imgs/loading.gif" id="companyImg">
 			        <p>湖南天链科技有限公司，是一家专注区块链技术及应用解决方案的互联网科技公司。天链科技以领先的区块链基础建设、区块链数字资产流通平台、区块链数字货币ICO、区块链应用等打造区块链生态系统，为企业和个人用户提供区块链全寿命周期的整体解决方案，帮助用户最大限度的提高计算性能，优化软件，提升运营项目的整体效率，使用户在有限资金预算条件下得到更多的回报。公司拥有一支由博士引领的高层次团队，并与知名科研机构、云计算产商缔结战略合作，具有成熟的技术实力、扎实的运维能力和强大的售后保障能力，成为客户值得信赖的伙伴。</p>
 				</div>
 				<div class="col-lg-3">
@@ -87,6 +87,11 @@
 <!--[if lte IE 8]><script src="http://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script><![endif]-->
 <!--[if gte IE 9]><script type="text/javascript" src="lib/jquery.min.js"></script><![endif]-->
 <script type="text/javascript" src="lib/bootstrap.min.js"></script>
+<script type="text/javascript">
+	setTimeout(function(){
+		$("#companyImg").attr("src","imgs/company.jpg");
+	},400)
+</script>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>

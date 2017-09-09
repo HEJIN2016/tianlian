@@ -48,6 +48,14 @@ function playInTurn(query,spacetime,animatetime,list){
 		time = spacetime+animatetime;
 		animate = setTimeout(arguments.callee,time);
 	},time);
+
+	setTimeout(function(){
+		$("#miner").attr("src",$("#miner").attr("data-src"));
+	},100);
+	setTimeout(function(){
+		$("#platform").attr("src",$("#platform").attr("data-src"));
+		$("#pool").attr("src",$("#pool").attr("data-src"));
+	},spacetime/2)
 }
 
 $("#product_tab").children('li').click(function(event) {
